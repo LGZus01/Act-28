@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="application-name" content="Actividad 26">
+	<meta name="description" content="Estancia en CONALEP">
+	<meta name="keywords" content="Jesús, LGZús, Estancia, Conalep">
+	<meta name="author" content="JGG, lgzus01@protonmail.com">
+	<meta name="copyright" content="CONALEP 153">
+	<title>Suma de números</title>
+</head>
+<body>
+	<script>
+		var resultado=0;
+
+		do{
+			var nume = prompt("Introduce el número");
+
+			if(Number(nume)==nume){
+				resultado=parseInt(resultado)+parseInt(nume);
+			}else{
+				alert("Introduce un número válido");
+			}
+		}while(confirm("¿Desea seguir?"));
+		document.write(resultado);
+	</script>
+</body>
+</html>
